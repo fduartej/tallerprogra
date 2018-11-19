@@ -12,7 +12,7 @@ package tallerprogra.fundamental;
 public class NestedIf {
  
       public static void main(String[] args) {
-        float students= 0.0f; //0.0
+        float students= 8.0f; //0.0
         float rooms = 4.0f; //4.0
 
         if(students > 0.0f) {

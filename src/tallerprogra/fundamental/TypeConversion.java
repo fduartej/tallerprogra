@@ -22,7 +22,7 @@ public class TypeConversion {
         short result2 = (short)(byteVal - longVal);
         double result3 = longVal - doubleVal;
         long result4 = (long)(shortVal - longVal + floatVal + doubleVal);
-
+        System.out.println(result4);
         System.out.println("Success");
     }    
 }
