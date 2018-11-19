@@ -13,6 +13,7 @@ public class Flight {
     
     private int seats;
     private int passengers;
+    public String name;
     
     public Flight(){
         seats=150;
@@ -32,11 +33,15 @@ public class Flight {
     }
     
     public void addPassenger(){
-        if(passengers<seats)
-           passengers++;
+        if(passengers<seats) {
+            System.err.println("Add Passenger");
+            passengers++;
+        }
+           
     }
 
     public void summary(){
+        System.out.printf("Nombre %s \n", name );
         System.out.printf("Total asientos %d \n", seats );
         System.out.printf("Total pasajeros %d \n", passengers );
         System.out.printf("Total asientos disponibles %d \n", seats - passengers );
