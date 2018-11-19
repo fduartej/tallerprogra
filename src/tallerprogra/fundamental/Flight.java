@@ -10,6 +10,14 @@ package tallerprogra.fundamental;
  * @author fred
  */
 public class Flight {
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
     
     private int seats;
     private int passengers;
