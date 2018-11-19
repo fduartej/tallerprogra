@@ -1,4 +1,4 @@
-package tallerprogra.fundametal;
+package tallerprogra.fundamental;
 
 import tallerprogra.fundamental.MathEquation;
 
