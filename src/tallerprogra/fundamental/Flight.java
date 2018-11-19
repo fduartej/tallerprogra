@@ -22,22 +22,22 @@ public class Flight {
     
     public static void main(String[] args){
         Flight objFlight = new Flight();
-        objFlight.addPassenger();
+        System.out.printf("Cambio %d \n", objFlight.addPassenger());
         objFlight.summary();
         
         for(int i=0;i<100;i++){
-            objFlight.addPassenger();
+            System.out.printf("Cambio %d \n", objFlight.addPassenger());
         }
         objFlight.summary();
     
     }
     
-    public void addPassenger(){
+    public int addPassenger(){
         if(passengers<seats) {
             System.err.println("Add Passenger");
             passengers++;
         }
-           
+        return passengers;   
     }
 
     public void summary(){
