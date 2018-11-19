@@ -26,8 +26,8 @@ public class Flight {
         
         for(int i=0;i<100;i++){
             objFlight.addPassenger();
-            objFlight.summary();
         }
+        objFlight.summary();
     
     }
     
